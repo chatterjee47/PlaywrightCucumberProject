@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "example-feature;login-functionality-rahulshettyacademy-portal",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login Functionality rahulshettyacademy portal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 405374100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "lets open the rahulshettyacademy portal",
+            "match": {
+              "location": "src\\features\\step_definitions\\career-portal.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2526602900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "lets login with username and password",
+            "match": {
+              "location": "src\\features\\step_definitions\\career-portal.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2170291900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User click on Sign In button",
+            "match": {
+              "location": "src\\features\\step_definitions\\career-portal.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097452299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 136815900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "example-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Example Feature",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]
